@@ -1,0 +1,91 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Agbalumo', sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 40px auto;
+    margin-bottom: 70px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 8vh;
+    color: #ae9cff;
+    background-color: #575a7b;
+    font-weight: bolder;
+    max-width: max-content;
+}
+body{
+    background-color: #ae9cff;
+    background-image: url(../image/img.jpg);
+}
+.container{
+    background-color: #ffffff;
+    width: 56vw;
+    margin: 0 auto;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+.search-box{
+    width: 50vw;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
+.search-box button{
+    padding: 15px 0;
+    width: 20vw;
+    background-color: #ae9cff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result{
+    position: relative;
+    font-family: 'Edu TAS Beginner', sans-serif ;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.result button{
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    font-size: 14px;
+}
+.word-meaning{
+    color: #575a7b;
+}
+.word-example{
+    color: #575a7b;
+    font-style:italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
